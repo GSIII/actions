@@ -4,7 +4,7 @@ run-name: ${{ github.workflow }}
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   deploy:
